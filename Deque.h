@@ -58,14 +58,3 @@ private:
 	vector<T> deque_f;
 	vector<T> deque_b;
 };
-
-int main() {
-	Deque<int> d;
-	d.PushFront(1);
-	d.PushFront(2);
-	d.PushFront(3);
-
-
-	cout << d.At(0) << endl;;
-	return 0;
-}
